@@ -87,7 +87,7 @@ class Hyphenate_Fix extends Abstract_Token_Fix {
 		if ( ! empty( $textnode ) && ! empty( $textnode->parentNode ) ) {
 			$block_level_parent = DOM::get_block_parent_name( $textnode );
 
-			if ( ! empty( $block_level_parent ) && isset( self::HEADING_TAGS[ $block_level_parent ] ) ) {
+			if ( ! empty( $block_level_parent ) && null !== self::HEADING_TAGS[ $block_level_parent ] ) {
 				$is_heading = true;
 			}
 		}
