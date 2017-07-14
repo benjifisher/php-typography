@@ -35,3 +35,18 @@ in the official `composer` docs.
 
 If you want to provide a non-composer installation path, then you may want to
 reject some of my changes to `Gruntfile.js`.
+
+If you want to use this as a stand-alone project (in order to run tests for
+example) then run
+
+```
+composer install
+```
+
+from the top-level directory.
+(See
+[Installation - Linux / Unix / OSX](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+or
+[Installation - Windows](https://getcomposer.org/doc/00-intro.md#installation-windows)
+if you do not already have `composer` installed.)
+This will download the HTML5 parser and create an autoload file for it.
