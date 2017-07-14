@@ -22,3 +22,5 @@ tests/coverage/*
 
 # macOS Finder
 .DS_Store
+
+/vendor/

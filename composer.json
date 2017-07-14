@@ -1,0 +1,13 @@
+{
+    "name": "benjifisher/php-typography",
+    "description": "Temporary home of the PHP-Typography library",
+    "type": "library",
+    "license": "GPL 3.0+",
+    "authors": [
+        {
+            "name": "Benji Fisher",
+            "email": "bfisher@isovera.com"
+        }
+    ],
+    "require": {}
+}
