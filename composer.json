@@ -11,5 +11,8 @@
     ],
     "require": {
         "masterminds/html5": "^2.2"
+    },
+    "autoload": {
+      "psr-4": {"PHP_Typography\\": "src/"}
     }
 }
