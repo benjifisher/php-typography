@@ -7,20 +7,20 @@
 	verbose="true"
 >
 	<testsuites>
-	    <testsuite name="wpTypography">
+	    <testsuite name="phptypography">
 			<directory suffix="-test.php">tests</directory>
 	    </testsuite>
 	</testsuites>
 	<filter>
 		<whitelist processUncoveredFilesFromWhitelist="true">
-	    	<directory suffix=".php">php-typography</directory>
+	    	<directory suffix=".php">.</directory>
 	    	<exclude>
-	    		<directory>php-typography/bin</directory>
-	    		<directory>php-typography/lang</directory>
-	    		<directory>php-typography/diacritics</directory>
-	    		<file>php-typography/php-typography-autoload.php</file>
-	    		<file>php-typography/php-typography-debug.php</file>
-	    		<file>php-typography/_language_names.php</file>
+	    		<directory>bin</directory>
+	    		<directory>lang</directory>
+	    		<directory>diacritics</directory>
+	    		<file>php-typography-autoload.php</file>
+	    		<file>php-typography-debug.php</file>
+	    		<file>_language_names.php</file>
 	    	</exclude>
 		</whitelist>
 	</filter>

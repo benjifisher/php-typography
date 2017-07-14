@@ -18,7 +18,7 @@ build/*
 tests/coverage/*
 
 # ignore dummy PHP file for language names
-php-typography/_language_names.php
+/_language_names.php
 
 # macOS Finder
 .DS_Store

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="-5.0"?>
 <ruleset name="WordPress Plugin Coding Standards">
 	<description>
 		A custom set of code standard rules to check for WordPress plugins:
@@ -29,6 +29,6 @@
 
 	<!-- Include sniffs for PHP cross-version compatibility. -->
 	<rule ref="PHPCompatibility">
-		<config name="testVersion" value="5.4-7.1"/>
+		<config name="testVersion" value="5.6-7.1"/>
 	</rule>
 </ruleset>
