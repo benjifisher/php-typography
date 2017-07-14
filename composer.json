@@ -9,5 +9,7 @@
             "email": "bfisher@isovera.com"
         }
     ],
-    "require": {}
+    "require": {
+        "masterminds/html5": "^2.2"
+    }
 }
